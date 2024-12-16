@@ -1,3 +1,4 @@
-data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
-pos = data.find('.')
-print(data[pos:pos+3])
+x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
+y = x.items()
+
+print(y)
