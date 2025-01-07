@@ -1,4 +1,5 @@
-x = { 'chuck' : 1 , 'fred' : 42, 'jan': 100}
-y = x.items()
+import re
 
+x = '<p>Please click <a href="http://www.dr-chuck.com">here</a></p>'
+y = re.findall('href="(.+)"', x)
 print(y)
