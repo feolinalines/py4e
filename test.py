@@ -1,5 +1,4 @@
 import re
-
-x = '<p>Please click <a href="http://www.dr-chuck.com">here</a></p>'
-y = re.findall('href="(.+)"', x)
-print(y)
+s = 'csev@umich.edu'
+lst = re.findall(r'@([A-Za-z0-9.-]+)', s)
+print(lst[0])
