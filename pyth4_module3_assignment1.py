@@ -10,7 +10,7 @@ import sqlite3
 # Connect to our database
 #
 conn = sqlite3.connect('pyth4_module3_assignment1.sqlite')
-cur = conn.cursor()
+cur  = conn.cursor()
 
 # Drop any existing tables and create fresh copies
 #

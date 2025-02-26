@@ -9,7 +9,6 @@
 #
 # Imports
 #
-import urllib.request
 import urllib.request, urllib.parse
 import json, ssl
 
